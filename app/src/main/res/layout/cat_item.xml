@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:background="#ffffff"
+    android:elevation="8dp"
+    app:cardCornerRadius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/CatImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/kucingproject"/>
+
+        <TextView
+            android:id="@+id/CatName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cat Name"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/CatOrigin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Cat Origin"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/CatDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Cat Desc"
+            android:textSize="13sp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
